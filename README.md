@@ -36,10 +36,10 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 
 
 2. **Construa e execute os containers:**
-   docker-compose up --build
+   docker-compose up --build 
 
 3. **A API estará disponível em:**
-  http://localhost:3000/api
+  http://localhost:3000/api ( ao rodar no cmd, utilizar o comando npm run start)
 
 4. **Utilização IA:**
   Realizada utilização da IA para criação da documentação do Swagger e componentização do docker. Por ser uma maneira mais rapida e eficiente. 
