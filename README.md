@@ -22,7 +22,7 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 
 - **[Docker](https://www.docker.com/get-started)**
 - **[Docker Compose](https://docs.docker.com/compose/install/)**
-- **(Opcional) Node.js 18+ e npm**, caso queira rodar localmente
+- **(Opcional) Node.js 18+ e npm**, para rodar localmente
 
 ---
 
@@ -46,3 +46,11 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 
 5. **Utilização do decimal para quantidade da Entidade Produto**
   Normalmente, o integer é utilizado para quantidades discretas, mas decimal pode ser útil para frações de produtos, como peso em quilos (ex: 0.5kg).
+
+6. **Exemplo de criação de produto com JSON**
+  {
+  "nome": "Notebook Dell XPS",
+  "codigoBarras": "1234567890123",
+  "quantidade": 5.5,
+  "preco": 4200.99
+}
