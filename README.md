@@ -40,3 +40,9 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 
 3. **A API estará disponível em:**
   http://localhost:3000/api
+
+4. **Utilização IA:**
+  Realizada utilização da IA para criação da documentação do Swagger e componentização do docker. Por ser uma maneira mais rapida e eficiente. 
+
+5. **Utilização do decimal para quantidade da Entidade Produto**
+  Normalmente, o integer é utilizado para quantidades discretas, mas decimal pode ser útil para frações de produtos, como peso em quilos (ex: 0.5kg).
